@@ -1,0 +1,108 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #eceff1;
+}
+
+/* Chat container */
+.chat-container {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Messages list */
+.messages-list {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+/* Message bubble */
+.message-bubble {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 1rem;
+    position: relative;
+    clear: both;
+}
+
+/* Message text */
+.message-text {
+    margin: 0;
+}
+
+/* User's message */
+.user-message {
+    background: #1976d2;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Bot's message */
+.bot-message {
+    background: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Send message form */
+.send-message-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
+
+/* Input field */
+.send-message-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+/* Send button */
+.send-message-button {
+    padding: 10px 20px;
+    background: #1976d2;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Button hover effect */
+.send-message-button:hover {
+    background: #185abc;
+}
+
+/* Message counter */
+.message-counter {
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9rem;
+}
