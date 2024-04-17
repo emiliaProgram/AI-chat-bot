@@ -9,7 +9,6 @@
 <body>
     <div class="chat-container">
         <div class="messages-list">
-            <!-- Chat messages will go here -->
             {% for actor, message in conversation %}
                 {% if actor == 'user' %}
                     <div class="message-bubble user-message">
